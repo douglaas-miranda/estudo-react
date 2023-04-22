@@ -87,7 +87,7 @@ export default class Main extends Component {
                 <h1>Lista de tarefas</h1>
 
                 <Form 
-                handleSubmit={this.handleSubmit}
+                handleSubmit={this.hanleSubmit}
                 handleChange={this.handleChange}
                 novaTarefa={novaTarefa}    
                 />
